@@ -1,17 +1,17 @@
 #include "main.h"
 
-/************************* PRINT CHAR ****************************/
+/************************* PRINT CHAR *************************/
 
 /**
-* print_char - Prints a character to the standard output.
-* @types: List of arguments (va_list) - This function expects a character.
-* @buffer: Buffer array to handle the print (not used in this function).
-* @flags: Calculates active flags (not used in this function).
-* @width: Width specification (not used in this function).
-* @precision: Precision specification (not used in this function).
-* @size: Size specifier (not used in this function).
-* Return: Number of characters printed.
-*/
+ * print_char - Prints a char
+ * @types: List a of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: Width
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
+ */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
